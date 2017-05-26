@@ -52,3 +52,8 @@ a {
     font-weight: 700;
 }
 
+.table-striped{
+    background-color: lightgray;
+}
+
+
