@@ -1,0 +1,19 @@
+body {
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    text-align: center;
+    background-size: cover;
+}
+
+.list-group-item{
+    background:#FFFAFA;
+}
+
+.form-control { 
+  margin-bottom: 10px; 
+}
+
