@@ -17,3 +17,38 @@ body {
   margin-bottom: 10px; 
 }
 
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-bottom: 10px;  
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 1; 
+}
+
+.back
+{
+    display: block;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.new-account
+{
+    display: block;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+

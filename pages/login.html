@@ -11,34 +11,47 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
 
 </head>
 
 <body>
 
-<div class="container">
-<div class="row">
-    <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
-        <div class="list-group">
-            <a class="list-group-item active">Account</a>
-            <a href="#" class="list-group-item">Login</a>
-            <a href="#" class="list-group-item">Criar conta</a>
-            <br>
-            <a href="#" class="list-group-item active">Community</a>
-            <a href="#" class="list-group-item">Highscores</a>
-            <a href="#" class="list-group-item">Pesquisar personagem</a>
-            <a href="#" class="list-group-item">Baixar cliente</a>
-            <br>
-            <a href="#" class="list-group-item active">Server Status</a>
-            <a href="#" class="list-group-item">Mundo: Gold</a>
-            <a href="#" class="list-group-item">Status: Online</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-sm-3">
+                <div class="list-group">
+                    <a class="list-group-item active">Account</a>
+                    <a href="login.html" class="list-group-item">Login</a>
+                    <a href="cadastro.html" class="list-group-item">Criar conta</a>
+                    <br>
+                    <a href="#" class="list-group-item active">Community</a>
+                    <a href="#" class="list-group-item">Highscores</a>
+                    <a href="#" class="list-group-item">Pesquisar personagem</a>
+                    <a href="#" class="list-group-item">Baixar cliente</a>
+                    <br>
+                    <a href="#" class="list-group-item active">Server Status</a>
+                    <a href="#" class="list-group-item">Mundo: Gold</a>
+                    <a href="#" class="list-group-item">Status: Online</a>
+                </div>
+            </div>
+            
+            <div class="col-xs-6 col-sm-3 col-sm-offset-2 well well-sm formcss">
+                <div class="account-wall">
+                    <h2>Login</h2>
+                    <hr/>
+                    <form class="form-signin">
+                        <input type="text" class="form-control" placeholder="Conta" name="conta" required autofocus>
+                        <input type="password" class="form-control" placeholder="Senha" name="senha" required>
+                        <a href="" class="btn btn-primary btn-md">Entrar</a>
+                        <p></p>
+                        <a href="../index.html" class="text-center pull-left back">Recuperar conta</a>
+                        <a href="cadastro.html" class="text-center pull-right new-account">Criar conta</a>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-</div>
-
-
 </body>
 
 </html>
